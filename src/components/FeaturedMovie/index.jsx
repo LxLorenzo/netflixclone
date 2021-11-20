@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./index.css";
-import AddIcon from '@mui/icons-material/Add';
 
 export default ({ item }) => {
   console.log(item)
@@ -43,10 +42,7 @@ export default ({ item }) => {
               ► Assistir
             </a>
             <a href={`/list/add/${item.id}`} className="featured--mylistbutton">
-              <AddIcon style={{
-                fontSize: 20,
-                
-              }}/> Minha Lista
+              + Minha Lista
             </a>
           </div>
           <div className="featured--genres">
